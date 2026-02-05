@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document presents the implementation details of the paper LumiRAG-IR: A Unified Multimodal RAG Large Model Bridging Text and Image Retrieval.
+This document presents the implementation details of the paper "LumiRAG-IR: A Unified Multimodal RAG Large Model Bridging Text and Image Retrieval".
 
 ## 2. Training Data
 The training data used in the paper will be released on Hugging Face.
