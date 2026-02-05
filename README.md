@@ -1,11 +1,14 @@
 # LumiRAG-IR: A Unified Multimodal RAG Large Model Bridging Text and Image Retrieval
 
-## 一、简介
+## 1. Introduction
 
-本文档提供了论文LumiRAG-IR: A Unified Multimodal RAG Large Model Bridging Text and Image Retrieval的实现细节。
+This document presents the implementation details of the paper LumiRAG-IR: A Unified Multimodal RAG Large Model Bridging Text and Image Retrieval.
 
-## 二、训练数据
+## 2. Training Data
+The training data used in the paper will be released on Hugging Face.
 
-## 三、训练脚本
+## 3. Training Scripts
 
-参考https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training_zh.md。
+For the code of the Instruction Tuning phase, please refer to [https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md](https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md).
+
+For the code of the Reinforcement Learning phase, please refer to [https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md](https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md).
