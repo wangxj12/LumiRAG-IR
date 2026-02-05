@@ -11,4 +11,11 @@ The training data used in the paper will be released on Hugging Face.
 
 For the code of the Instruction Tuning phase, please refer to [https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md](https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md).
 
-For the code of the Reinforcement Learning phase, please refer to [https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md](https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md).
+### Reinforcement Learning
+
+```bash
+# Execute the DAPO training script
+cd ./rlhf/verl
+bash recipe/dapo/run_dapo_qwen_3b_rag.sh
+```
+For more information, please refer to [https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md](https://github.com/Yuan-lab-LLM/Yuan3.0/blob/main/rlhf/docs/RL_training.md).
