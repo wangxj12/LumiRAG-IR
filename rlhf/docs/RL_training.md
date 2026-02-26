@@ -52,7 +52,7 @@ The following parameters control input/output length and long-text handling stra
 
 Yuan3.0 Flash supports three preference optimization strategies. Switch between them by setting the following variables. The parameter configurations for each strategy are as follows:
 
-### 4.1 GSPO (General-Sum Preference Optimization)
+### 4.1 GSPO (Group Sequence Policy Optimization)
 ```bash
 # GSPO Strategy Configuration
 loss_mode=gspo
@@ -61,7 +61,7 @@ clip_ratio_high=0.0004
 loss_agg_mode="seq-mean-token-mean"
 ```
 
-### 4.2 DAPO (Distribution-Aware Preference Optimization)
+### 4.2 DAPO (Dynamic sAmpling Policy Optimization )
 ```bash
 # DAPO Strategy Configuration (Default Recommended)
 loss_mode=eighty-twenty
@@ -70,7 +70,7 @@ clip_ratio_high=0.28
 loss_agg_mode="token-mean"
 ```
 
-### 4.3 SAPO (Strategy-Aware Preference Optimization)
+### 4.3 SAPO (Soft Adaptive Policy Optimization)
 ```bash
 # SAPO Strategy Configuration
 loss_mode=sapo
