@@ -2,9 +2,9 @@
 
 ## 1. Introduction
 
-This document provides instructions for Decoupled Advantage Policy Optimization (DAPO) reinforcement learning for the Yuan3.0 Flash model.
+This document provides instructions for Dynamic sAmpling Policy Optimization (DAPO) reinforcement learning for the Yuan3.0 Flash model.
 
-The reinforcement learning training of Yuan3.0 Flash adopts the Decoupled Advantage Policy Optimization (DAPO) framework at its core. It simultaneously supports multiple preference optimization strategies such as GSPO (General-Sum Preference Optimization) and SAPO (Strategy-Aware Preference Optimization). It can flexibly adapt to training data of varying length scales (4K/16K) and provides a robust mechanism for handling ultra-long inputs.
+The reinforcement learning training of Yuan3.0 Flash adopts the Dynamic sAmpling Policy Optimization (DAPO) framework at its core. It simultaneously supports multiple preference optimization strategies such as GSPO (General-Sum Preference Optimization) and SAPO (Strategy-Aware Preference Optimization). It can flexibly adapt to training data of varying length scales (4K/16K) and provides a robust mechanism for handling ultra-long inputs.
 
 ## 2. Usage
 
